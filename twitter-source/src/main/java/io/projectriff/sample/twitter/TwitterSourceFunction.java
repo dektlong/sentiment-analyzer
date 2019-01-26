@@ -15,7 +15,7 @@ import java.util.function.Function;
  * @author David Turanski
  **/
 
-@Component
+@Bean
 public class TwitterSourceFunction implements Function<Flux<String>, Flux<String>> {
 	private static Log logger = LogFactory.getLog(TwitterSourceFunction.class);
 	@Autowired
